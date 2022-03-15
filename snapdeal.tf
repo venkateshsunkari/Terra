@@ -3,7 +3,7 @@ provider "aws" {
   access_key = "AKIAVMFWVN35PU6A6M4R"
   secret_key = "b+9K9PJWecFw0G3auchRxzjfDJNPc4Z5gfQvZKjw"
 }
-resource "aws_elasticache_cluster" "ramu" {
+resource "aws_elasticache_cluster" "example" {
   cluster_id           = "flipkart"
   engine               = "redis"
   node_type            = "cache.t2.micro"
